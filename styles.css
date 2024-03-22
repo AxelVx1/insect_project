@@ -1,4 +1,95 @@
-body {
-    text-align: center;
+body, html {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+}
+:root {
+    --main-bg-color: #7ec8e3;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.insect-image {
+    position: relative;
+    display: inline-block;
+}
+
+.insect-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlayWingL {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0);
+    cursor: pointer;
+    top: 8%;
+    left: 30%;
+    width: 16%;
+    height: 85%;
+}
+
+.overlayWingR {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0);
+    cursor: pointer;
+    top: 8%;
+    left: 54%;
+    width: 16%;
+    height: 85%;
+}
+
+.overlayHead {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    top: 42%; 
+    left: 49.29%; 
+    width: 1.5%; 
+    height: 4%;
+}
+
+.overlayThorax {
+    position: absolute;
+    background-color: rgba(0, 255, 0, 0);
+    cursor: pointer;
+    top: 48%; 
+    left: 49.29%;
+    width: 1.79%; 
+    height: 14%;
+}
+
+.overlayAbdomen {
+    position: absolute;
+    background-color: rgba(255, 0, 204, 0); 
+    cursor: pointer;
+    top: 65%;
+    left: 49.64%; 
+    width: 1.4%; 
+    height: 25%; 
+}
+
+.annotations {
+    margin-top: 20px;
+}
+
+.annotation {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
