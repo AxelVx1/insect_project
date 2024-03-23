@@ -3,17 +3,27 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-:root {
-    --main-bg-color: #7ec8e3;
-}
 
 body {
-    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/Grass_Background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
     text-align: center;
     padding: 20px;
+}
+
+.hover-prompt p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #000000;
 }
 
 .insect-image {
@@ -29,6 +39,31 @@ body {
 .image-container {
     position: relative;
     display: inline-block;
+    margin-bottom: 50px;
+}
+
+section {
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    max-width: 1000px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    color: #000000;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 .overlayWingL {
@@ -59,6 +94,26 @@ body {
     left: 49.29%; 
     width: 1.5%; 
     height: 4%;
+}
+
+.overlayAntannaeL {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    top: 14%; 
+    left: 48%; 
+    width: 4%; 
+    height: 26%;
+}
+
+.overlayAntannaeR {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    top: 17%; 
+    left: 46%; 
+    width: 8%; 
+    height: 14%;
 }
 
 .overlayThorax {
@@ -92,4 +147,28 @@ body {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+#random-fact {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+#show-fact {
+    padding: 10px 20px;
+    background-color: rgb(25, 173, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#show-fact:hover {
+    background-color: rgb(1, 137, 5);
 }

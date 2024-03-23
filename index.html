@@ -8,17 +8,81 @@
 </head>
 <body>
     <div class="container">
-        <h1>Insect Annotation Project</h1>
+        <h1>Protect our Butterflies!</h1>
         <div class="insect-image">
-            <img src="/Users/axelvx/Desktop/insect_project/butterfly.png" alt="Butterfly" id="butterfly">
+            <img src="images/butterfly.png" alt="Butterfly" id="butterfly">
             <div class="overlay overlayWingL" id="wingL" style="position: absolute;"></div>
             <div class="overlay overlayWingR" id="wingR" style="position: absolute;"></div>
             <div class="overlay overlayHead" id="head" style="position: absolute;"></div>
             <div class="overlay overlayThorax" id="thorax" style="position: absolute;"></div>
             <div class="overlay overlayAbdomen" id="abdomen" style="position: absolute;"></div>
+            <div class="overlay overlayAntannaeL" id="antannaeL" style="position: absolute;"></div>
+            <div class="overlay overlayAntannaeR" id="antannaeR" style="position: absolute;"></div>
             <!-- Add future overlays HERE -->
         </div>
     </div>   
+
+    <!-- Diagram Prompt -->
+    <div class="hover-prompt">
+        <p>Hover over different parts of the above butterfly diagram to learn more about each part!</p>
+    </div>
+
+    <!-- Our Mission -->
+    <section id="our-mission">
+        <h2>Our Mission</h2>
+        <p>We dream of a world where butterflies flourish within their native ecosystems, 
+            enriching biodiversity and ensuring the vitality of our natural landscapes across the United States. 
+            Our vision is for a future where the activities of humans seamlessly integrate with the natural world, 
+            nurturing the existence of these essential pollinators. Our mission is to enlighten and advocate for butterfly 
+            conservation, offering in-depth resources and captivating materials that underscore the critical ecological 
+            roles butterflies play, from pollination to signaling the health of our environment. Our goal is to motivate both 
+            individuals and communities to engage in significant efforts that bolster the populations of these indispensable 
+            insects.</p>
+    </section>
+
+    <!-- Why Butterflies Matter -->
+    <section id="why-butterflies-matter">
+        <h2>Why Butterflies Matter</h2>
+        <p>Butterflies play a crucial role in the ecosystem. As pollinators, they help in the reproduction of many types of plants...</p>
+    </section>
+
+    <!-- Conservation Efforts -->
+    <section id="conservation-efforts">
+        <h2>Conservation Efforts</h2>
+        <p>Our conservation efforts focus on several key areas:</p>
+        <ul>
+            <li>Habitat Restoration: We support projects aimed at restoring and maintaining habitats...</li>
+            <li>Education and Awareness: We believe knowledge is power...</li>
+            <li>Citizen Science: Get involved with citizen science projects...</li>
+            <li>Supporting Legislation: Advocating for policies and legislation...</li>
+        </ul>
+    </section>
+
+    <!-- Get Involved -->
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>There are many ways to get involved in butterfly conservation...</p>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Explore our resources section for guides on creating butterfly habitats...</p>
+    </section>
+
+    <!-- Join Us -->
+    <section id="join-us">
+        <h2>Join Us</h2>
+        <p>Together, we can make a significant impact on the conservation of butterflies in the United States...</p>
+    </section>
+    
+    <!-- Random Fact -->
+    <section id="random-fact">
+        <h2>Did You Know?</h2>
+        <p id="fact-display">Click the button to learn a random fact about butterflies!</p>
+        <button id="show-fact">Show Random Fact</button>
+    </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
