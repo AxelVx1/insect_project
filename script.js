@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Butterflies cannot fly if their body temperature is less than 86 degrees.",
         "Representations of butterflies are seen in Egyptian frescoes at Thebes, which are 3,500 years old.",
         "The Brimstone butterfly (Gonepterix rhamni) has the longest lifetime of the adult butterflies: 9-10 months.",
-        // Add more facts HERE
+        // Add future facts HERE
     ];
 
     const showFactButton = document.getElementById('show-fact');
